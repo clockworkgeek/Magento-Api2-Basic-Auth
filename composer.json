@@ -1,0 +1,13 @@
+{
+  "name":"clockworkgeek/magento-api2basicauth",
+  "type":"magento-module",
+  "license":"MIT",
+  "homepage":"https://github.com/clockworkgeek/Magento-Api2-Basic-Auth",
+  "description":"Basic HTTP authentication for Magento's REST API",
+  "authors":[
+    {
+      "name":"Daniel Deady",
+      "email":"daniel@clockworkgeek.com"
+    }
+  ]
+}
