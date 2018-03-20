@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <global>
+        <helpers>
+            <apibasicauth>
+                <class>Clockworkgeek_ApiBasicAuth_Helper</class>
+            </apibasicauth>
+        </helpers>
+        <models>
+            <apibasicauth>
+                <class>Clockworkgeek_ApiBasicAuth_Model</class>
+            </apibasicauth>
+        </models>
+        <api2>
+            <auth_adapters>
+                <apibasicauth module="apibasicauth" translate="label">
+                    <model>apibasicauth/adapter</model>
+                    <label>Basic</label>
+                    <enabled>1</enabled>
+                    <order>100</order>
+                </apibasicauth>
+            </auth_adapters>
+        </api2>
+    </global>
+</config>

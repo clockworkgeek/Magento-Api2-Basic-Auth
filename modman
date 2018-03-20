@@ -1,0 +1,2 @@
+modules/Clockworkgeek_ApiBasicAuth.xml app/etc/modules/Clockworkgeek_ApiBasicAuth.xml
+code app/code/community/Clockworkgeek/ApiBasicAuth
